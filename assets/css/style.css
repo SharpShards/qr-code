@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root{
+    --branco: hsl(0, 0%, 100%);
+    --cinzaClaro: hsl(212, 45%, 89%);
+    --azulClaro: hsl(220, 15%, 55%);
+    --azulEscuro: hsl(218, 44%, 22%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Outfit', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    display: flex;
+
+    height: 100vh;
+    width: 100%;
+
+    background-color: var(--cinzaClaro);
+
+    justify-content: center;
+    align-items: center;
+}
+
+.dvCard{
+    height: fit-content;
+    width: fit-content;
+
+    background-color: var(--branco);
+
+    border-radius: 18px;
+
+    padding: 20px;
+}
+
+.dvQRCode{
+    height: fit-content;
+    width: fit-content;
+}
+
+.dvQRCode img{
+    height: 280px;
+
+    border-radius: 18px;
+}
+
+.dvCard h1,
+.dvCard p{
+    text-align: center;
+}
+
+.dvCard h1{
+    color: var(--azulEscuro);
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dvCard p{
+    color: var(--azulClaro);
+    font-size: 15px;
+}
