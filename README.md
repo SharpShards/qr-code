@@ -1,7 +1,7 @@
 # QR Code
 
 ## Descrição
-Versão 2
+Versão 1
 
 Site simples de exibição de QR Code que leva o usuário para o site "Frontend Mentor". Site que possui desafios de criação de sites com diferentes tecnologias e níveis
 de dificuldade.
